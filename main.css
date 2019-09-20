@@ -1,23 +1,36 @@
 body{
-    background-color: fuchsia;
+    background-color: white;
+    color: black;
+    font-family: Georgia
+
 }
 
+article {
+    text-align: center;
+}
 .hidden {
     opacity: 0;
 }
 
-h1{
-    text-align: center;
-    font-family: Georgia;
-}
-
 .top{
     text-align: center;
-    color: blueviolet;
-    font-family: Georgia
-
+    color: black;
+    font-family: Georgia;
+    margin-bottom: 40px;
 }
 
-p {
-    font-family: Georgia
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+
+
+
+
+
+.inputs{
+    
+}
+
