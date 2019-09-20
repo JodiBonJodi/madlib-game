@@ -1,8 +1,8 @@
 function madLib() {        
-    const noun1Input = document.getElementById('noun1-input');
-    const noun1 = noun1Input.value;
-    const noun1Span = document.getElementById('noun1');
-    noun1Span.textContent = noun1;
+    const firstverbInput = document.getElementById('firstverb-input');
+    const firstverb = firstverbInput.value;
+    const firstverbSpan = document.getElementById('firstverb');
+    firstverbSpan.textContent = firstverb;
 
     
     //const noun2Input = document.getElementById('noun2-input');
@@ -89,6 +89,21 @@ function madLib() {
     const seasoning1 = seasoning1Input.value;
     const seasoning1Span = document.getElementById('seasoning1');
     seasoning1Span.textContent = seasoning1;
+
+    const seasoning2Input = document.getElementById('seasoning1-input');
+    const seasoning2 = seasoning1Input.value;
+    const seasoning2Span = document.getElementById('seasoning2');
+    seasoning2Span.textContent = seasoning2;
+
+    const seasoning3Input = document.getElementById('seasoning1-input');
+    const seasoning3 = seasoning3Input.value;
+    const seasoning3Span = document.getElementById('seasoning3');
+    seasoning3Span.textContent = seasoning3;
+
+    const seasoning4Input = document.getElementById('seasoning1-input');
+    const seasoning4 = seasoning4Input.value;
+    const seasoning4Span = document.getElementById('seasoning4');
+    seasoning4Span.textContent = seasoning4;
 
     const showStory = document.getElementById('story');
     showStory.classList.remove('hidden');
